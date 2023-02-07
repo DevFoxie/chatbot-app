@@ -5,5 +5,5 @@
 
 
 
-![alt text]([https://drive.google.com/file/d/1FYb_bniOSG-okMIScpD8HnLoDiolIh_i/view?usp=sharing](https://imagizer.imageshack.com/img923/4117/frMPfo.png))
+![alt text](https://imagizer.imageshack.com/img923/4117/frMPfo.png)
 
