@@ -31,11 +31,18 @@ function getMessages() {
 }
 
 /**
+ * 
+ *          WITH ASYNC FETCH METHOD 
+ * 
  * A function to send new message to server and refresh old messages.
+ * async function getMessages(){
+ * let response = await fetch('./assets/handler.php');
+ * let result = await response.json();
+ * }
  */
 
 function postMessage(event) {
-    // 1. Elle doit stoper le submit du formulaire
+    // 1. It musts stop submit the form.
     event.preventDefault();
 
     // 2. Get data from form.
@@ -59,6 +66,22 @@ function postMessage(event) {
 
     requeteAjax.send(data);
 }
+
+/**
+ *             WITH ASYNC FETCH METHOD
+ * 
+ * function postMEssage(event){
+ * event.preventDefault();
+ * 
+ * const form = document.querySelector('#form');
+ * const data = document.querySelector('#data');
+ * fetch('handler.php?task=write', {
+ * method : 'post',
+ * body : data,
+ * }).then(getMessages()
+ * );
+ * }
+ */
 
 document.querySelector('form').addEventListener('submit', postMessage);
 

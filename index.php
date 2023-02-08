@@ -62,7 +62,7 @@
 
                 <div class="user-inputs">
                     <form action="./assets/handler.php?task=write" method="POST">
-                        <input type="text" name="user" id="user" placeholder="<?php echo $_COOKIE['user']; ?>">
+                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>">
                         <input type="text" id="content" name="content" placeholder="Your message">
                         <button type="submit">Envoyer</button>
                     </form>
