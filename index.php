@@ -1,5 +1,5 @@
 <?php
-  setcookie("user", "pseudo", time() + (86400 * 30), "/");
+setcookie("user", "Guest", time() + (86400 * 30), "/");
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CUSTOM CSS !-->
     <link rel="stylesheet" href="./css/custom.css">
+
     <!-- FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +35,10 @@
     <?php
     require_once('./assets/connexion.php');
     ?>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
 
     <!-- MAIN CONTAINER + LOGO -->
     <div class="container">
@@ -62,9 +67,11 @@
 
                 <div class="user-inputs">
                     <form action="./assets/handler.php?task=write" method="POST">
-                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>">
+                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>" disabled="disabled">
                         <input type="text" id="content" name="content" placeholder="Your message">
                         <button type="submit">Envoyer</button>
+                        <br>
+                        <a href="login.php">Sign up</a>
                     </form>
                 </div>
 
@@ -76,7 +83,7 @@
     <div class="footer">
         <div class="box3">
             <h1>Thanks for using my chatbot!</h1>
-            <p>Other projects :</p>
+            <p>Other projects</p>
             <a href="https://github.com/DevFoxie"><i class="fa-brands fa-github fa-2xl"></i></a>
             <a href="https://www.linkedin.com/in/hakim-merniz-34367b185/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
         </div>
@@ -96,6 +103,7 @@
     <!--JS SCRIPT-->
     <script src="./js/main.js"></script>
     <script src="./js/back-to-top.js"></script>
+    <script src="./js/custom-cursor.js"></script>
 </body>
 
 </html>
