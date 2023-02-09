@@ -11,6 +11,7 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CUSTOM CSS !-->
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/cursor.css">
 
     <!-- FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,9 +68,10 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
 
                 <div class="user-inputs">
                     <form action="./assets/handler.php?task=write" method="POST">
-                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>">
+                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>" disabled="disabled">
                         <input type="text" id="content" name="content" placeholder="Your message">
                         <button type="submit">Envoyer</button>
+                        <a href="login.php">Log In / Sign Up</a>
                     </form>
                 </div>
 
@@ -101,6 +103,7 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
     <!--JS SCRIPT-->
     <script src="./js/main.js"></script>
     <script src="./js/back-to-top.js"></script>
+    <script src="./js/custom-cursor.js"></script>
 </body>
 
 </html>
