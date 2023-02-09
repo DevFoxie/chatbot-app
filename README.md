@@ -5,7 +5,9 @@
 
 
 
-<video src='https://imgur.com/mLIqMwl' width=180/>
+<div align="center">
+  <video src="https://imgur.com/mLIqMwl" width=400/>
+<div/>
 
 
 ![alt text](https://imagizer.imageshack.com/img923/4117/frMPfo.png)
