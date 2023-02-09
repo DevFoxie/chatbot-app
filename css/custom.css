@@ -159,8 +159,6 @@ button[type="submit"]:hover {
 #myBtn:hover {
     background-color: #555;
     /* Add a dark-grey background on hover */
-<<<<<<< HEAD
-=======
 }
 
 form>a {
@@ -175,5 +173,4 @@ form>a {
     align-items: center;
     margin-top: 10px;
     margin-right: 100px;
->>>>>>> 242b788 (2nd commit)
 }

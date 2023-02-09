@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CUSTOM LOGIN CSS -->
     <link rel="stylesheet" href="./css/login.css">
-<<<<<<< HEAD
-=======
     <link rel="stylesheet" href="./css/cursor.css">
->>>>>>> 242b788 (2nd commit)
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href=./favicon/favicon-32x32.png">
@@ -23,14 +20,11 @@
 
 <body>
 
-<<<<<<< HEAD
-=======
     <!-- CUSTOM CURSOR -->
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
     <!-- LOGIN FORM -->
->>>>>>> 242b788 (2nd commit)
     <div class="login-card">
         <h2>Login</h2>
         <h3>Enter your credentials</h3>
@@ -45,11 +39,8 @@
 
     <!--FONTAWESOME SCRIPT-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<<<<<<< HEAD
-=======
     <!--CURSOR SCRIPT-->
     <script src="./js/custom-cursor.js"></script>
->>>>>>> 242b788 (2nd commit)
 </body>
 
 </html>

@@ -1,9 +1,4 @@
 <?php
-<<<<<<< HEAD
-  setcookie("user", "pseudo", time() + (86400 * 30), "/");
-=======
-setcookie("user", "Guest", time() + (86400 * 30), "/");
->>>>>>> 242b788 (2nd commit)
 setcookie("user", "Guest", time() + (86400 * 30), "/");
 ?>
 
@@ -45,17 +40,6 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
-    <!-- CUSTOM CURSOR -->
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
-
-<<<<<<< HEAD
-=======
-    <!-- CUSTOM CURSOR -->
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
-
->>>>>>> 242b788 (2nd commit)
     <!-- MAIN CONTAINER + LOGO -->
     <div class="container">
         <div class="logo">
@@ -86,8 +70,6 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
                         <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>">
                         <input type="text" id="content" name="content" placeholder="Your message">
                         <button type="submit">Envoyer</button>
-                        <br>
-                        <a href="login.php">Sign up</a>
                     </form>
                 </div>
 
@@ -99,7 +81,7 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
     <div class="footer">
         <div class="box3">
             <h1>Thanks for using my chatbot!</h1>
-            <p>Other projects</p>
+            <p>Other projects :</p>
             <a href="https://github.com/DevFoxie"><i class="fa-brands fa-github fa-2xl"></i></a>
             <a href="https://www.linkedin.com/in/hakim-merniz-34367b185/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
         </div>
@@ -119,7 +101,6 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
     <!--JS SCRIPT-->
     <script src="./js/main.js"></script>
     <script src="./js/back-to-top.js"></script>
-    <script src="./js/custom-cursor.js"></script>
 </body>
 
 </html>
