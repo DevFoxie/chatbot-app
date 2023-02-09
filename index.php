@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
   setcookie("user", "pseudo", time() + (86400 * 30), "/");
+=======
+setcookie("user", "Guest", time() + (86400 * 30), "/");
+>>>>>>> 242b788 (2nd commit)
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CUSTOM CSS !-->
     <link rel="stylesheet" href="./css/custom.css">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="./css/cursor.css">
+>>>>>>> 242b788 (2nd commit)
     <!-- FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +43,13 @@
     require_once('./assets/connexion.php');
     ?>
 
+<<<<<<< HEAD
+=======
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+>>>>>>> 242b788 (2nd commit)
     <!-- MAIN CONTAINER + LOGO -->
     <div class="container">
         <div class="logo">
@@ -62,9 +77,17 @@
 
                 <div class="user-inputs">
                     <form action="./assets/handler.php?task=write" method="POST">
+<<<<<<< HEAD
                         <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>">
                         <input type="text" id="content" name="content" placeholder="Your message">
                         <button type="submit">Envoyer</button>
+=======
+                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>" disabled="disabled">
+                        <input type="text" id="content" name="content" placeholder="Your message">
+                        <button type="submit">Envoyer</button>
+                        <br>
+                        <a href="login.php">Sign up</a>
+>>>>>>> 242b788 (2nd commit)
                     </form>
                 </div>
 
@@ -76,7 +99,11 @@
     <div class="footer">
         <div class="box3">
             <h1>Thanks for using my chatbot!</h1>
+<<<<<<< HEAD
             <p>Other projects :</p>
+=======
+            <p>Other projects</p>
+>>>>>>> 242b788 (2nd commit)
             <a href="https://github.com/DevFoxie"><i class="fa-brands fa-github fa-2xl"></i></a>
             <a href="https://www.linkedin.com/in/hakim-merniz-34367b185/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
         </div>
@@ -96,6 +123,10 @@
     <!--JS SCRIPT-->
     <script src="./js/main.js"></script>
     <script src="./js/back-to-top.js"></script>
+<<<<<<< HEAD
+=======
+    <script src="./js/custom-cursor.js"></script>
+>>>>>>> 242b788 (2nd commit)
 </body>
 
 </html>
