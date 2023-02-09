@@ -4,6 +4,4 @@
 * First commit (07/02/2023).
 
 
-
-![Watch the video](https://imgur.com/mLIqMwl)
-https://imgur.com/mLIqMwl
+<video src='https://imgur.com/mLIqMwl' width=180/>
