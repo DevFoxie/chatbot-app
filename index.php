@@ -1,4 +1,9 @@
 <?php
+<<<<<<< HEAD
+  setcookie("user", "pseudo", time() + (86400 * 30), "/");
+=======
+setcookie("user", "Guest", time() + (86400 * 30), "/");
+>>>>>>> 242b788 (2nd commit)
 setcookie("user", "Guest", time() + (86400 * 30), "/");
 ?>
 
@@ -40,6 +45,17 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+<<<<<<< HEAD
+=======
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+>>>>>>> 242b788 (2nd commit)
     <!-- MAIN CONTAINER + LOGO -->
     <div class="container">
         <div class="logo">
@@ -67,7 +83,7 @@ setcookie("user", "Guest", time() + (86400 * 30), "/");
 
                 <div class="user-inputs">
                     <form action="./assets/handler.php?task=write" method="POST">
-                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>" disabled="disabled">
+                        <input type="text" name="user" id="user" placeholder="Pseudo ?" value="<?php echo $_COOKIE['user']; ?>">
                         <input type="text" id="content" name="content" placeholder="Your message">
                         <button type="submit">Envoyer</button>
                         <br>

@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 $dns = 'mysql:host=localhost;dbname=chatbot';
+=======
+$dns = 'mysql:host=127.0.0.1;dbname=chatbot';
+>>>>>>> 242b788 (2nd commit)
 $user = 'root';
 $password = '';
 
